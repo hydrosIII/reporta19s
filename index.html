@@ -7,40 +7,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Reporta19s</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Reporta19s denuncia ciudadana" />
-	<meta name="keywords" content="verificado19s terremoto sismo cdmx derrumbes daños ciudadanía derechos" />
-	<meta name="reporta19s" content="reporta19s" />
 
-  	<!-- 
-	//////////////////////////////////////////////////////
-	Reporta19s
-	Sitio para denuncia ciudadana de las consecuencias del 19s.
-	
-	Website: 		http://reporta19s.org
-	Email: 			mapearterremoto@gmail.com
-	Twitter: 		http://twitter.com/reporta19s
-	
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
 
   	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   	<link rel="shortcut icon" href="favicon.ico">
 
-  	<!-- Google Webfont -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
-	<!-- Themify Icons -->
+  	
 	<link rel="stylesheet" href="css/themify-icons.css">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -72,26 +44,29 @@
 		<header id="fh5co-header-section" role="header" class="" >
 			<div class="container">
 
-			
-	
-					<nav id="fh5co-menu-wrap" role="navigation">
 				
-						
+
+				<!-- <div id="fh5co-menu-logo"> -->
+					<!-- START #fh5co-logo -->
+										
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li class="active"><a href="index.html">Inicio</a></li>
 							<li><a href="#reportar">¿Qué reportar?</a></li>
-							<li><a href="#mapa">¿Qué es?</a></li>
-							<li><a href="#contacto">Contacto</a></li>
+							<li><a href="#que-es">¿Qué es?</a></li>
+							<li><a href="#fh5co-contact">Contacto</a></li>
 						</ul>
 					</nav>
 				<!-- </div> -->
 
 			</div>
 		</header>
-		
-		
+        
 		<div id="fh5co-hero" style="background-image: url(images/slide_2.jpg);">
 			<div class="overlay" style="background-image: url(images/cover.jpg)"></div>
+			<a href="#fh5co-main" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
+			<!-- End fh5co-arrow -->
 			<div class="container">
 				<div class="col-md-12">
 					<div class="fh5co-hero-wrap">
@@ -99,23 +74,16 @@
                             <img src="images/logo.png">
 							<h1 class="to-animate hero-animate-1">Reporta 19S</h1>
 							<h2 class="to-animate hero-animate-2">Reporta daños, centros de acopio/brigada y personas en riesgo</h2>
-							<p class="to-animate hero-animate-3"><a href="https://terremoto19septiembre.ushahidi.io/views/map" target”_blank” class="btn btn-outline btn-md">¡REPORTA AQUÍ!</a></p>
-
-
-							<div id="flecha"
-							<a href="#reportar" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
-			<!-- End fh5co-arrow -->
-							</div>
-
+							<p class="to-animate hero-animate-3"><a href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank” class="btn btn-outline btn-md">¡REPORTA AQUÍ!</a></p>
 						</div>
 					</div>
 				</div>
 			</div>		
 		</div>
-	
 
-	
-		<div class="container-fluid">
+		<div id="fh5co-main">
+			<div id="reportar" class="fh5co-cards">
+				<div class="container-fluid">
 					<div class="row animate-box">
 						<div class="col-md-12 heading text-center">
                             <h2>¿Qué puedo reportar?</h2>
@@ -125,16 +93,16 @@
 					<div class="row">
 						<div class="col-md-3 animate-box">
 							<a class="fh5co-card" href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank”>
-								<img src="images/img_large_1.jpg" alt="Derrumbes" class="img-responsive">
+								<img src="images/img_large_1.jpg" class="img-responsive">
 								<div class="fh5co-card-body">
 									<h3>Derrumbes</h3>
 									<p style="font-size: 12pt;">Reporta si eres testigo de un edificio colapsado o si conoces alguno en riesgo. También puedes señalar si es un edificio nuevo para efectos legales.</p>
 								</div>
 							</a>
 						</div>
-						<div class="col-md-3 animate-box" id="reportar">	>
+						<div class="col-md-3 animate-box">
 							<a class="fh5co-card" href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank”>
-								<img src="images/img_large_2.jpg" alt="Solidaridad" class="img-responsive">
+								<img src="images/img_large_2.jpg" class="img-responsive">
 								<div class="fh5co-card-body">
 									<h3>Centro de Acopio</h3>
 									<p style="font-size: 12pt;">Mapea los centros de Acopio que conoces o estaciones de brigadas en CDMX, Puebla o Morelos. No olvides incluir fotos.</p>
@@ -143,7 +111,7 @@
 						</div>
 						<div class="col-md-3 animate-box">
 							<a class="fh5co-card" href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank”>
-								<img src="images/img_large_3.jpg" alt="Albergues" class="img-responsive">
+								<img src="images/img_large_3.jpg" class="img-responsive">
 								<div class="fh5co-card-body">
 									<h3>Albergues</h3>
 									<p style="font-size: 12pt;">Si conoces la ubicación de albergues, reporta. También puedes mencionar las necesidades de apoyo para cada uno.</p>
@@ -152,7 +120,7 @@
                         </div>
                         <div class="col-md-3 animate-box">
 							<a class="fh5co-card" href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank”>
-								<img src="images/img_large_4.jpg" alt="Daños" class="img-responsive">
+								<img src="images/img_large_4.jpg" class="img-responsive">
 								<div class="fh5co-card-body">
 									<h3>Edificios con daños significativos</h3>
 									<p style="font-size: 12pt;">Señala si tu edificio sufrió algún daño, incluye fotos. Puedes usar #RevisaMiGrieta para solicitar ayuda.</p>
@@ -161,52 +129,46 @@
                         </div>
 					</div>
 				</div>
-			
-		
+			</div>
+        </div>
+
 			<!-- END container -->
             
             
-		<div id="mapa">
-			<div class="animate-box fh5co-product-2">
+        <div id="fh5co-main">
+			<div id="que-es" class="animate-box fh5co-product-2">
 				<div class="fh5co-half">
 					<iframe width="560" height="315" src="https://terremoto19septiembre.ushahidi.io/views/map" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="fh5co-half">
 					<h3>¿Qué es Reporta 19S?</h3>
 
-                    <p style="font-size: 13pt;">Es un mapa con base en la herramienta Ushahidi, que fomenta la colaboración abierta en la construcción de historias, registro y memoria ciudadana que complementa y da sentido a la recopilación de datos. <br>Ushahidi significa testigo es swahili. Es una tecnología colaborativa de código abierto para posibilitar el derecho humano a comunicar de las personas en situaciones de crisis. Ha sido usado para el mapeo y georeferenciación de desastres.</p>
+                    <p style="font-size: 13pt;">Es un mapa con base en la herramienta Ushahidi, que fomenta la colaboración abierta en la construcción de historias, registro y memoria ciudadana que complementa y da sentido a la recopilación de datos.<br>Ushahidi significa testigo es swahili. Es una tecnología colaborativa de código abierto para posibilitar el derecho humano a comunicar de las personas en situaciones de crisis.</p>
 
-                    <p style="font-size: 13pt;">A través de este mapa buscamos empoderar a la ciudadanía para tomar el control de las herramientas digitales para que cada persona reivindique su derecho a contar su versión. Asimismo, buscamos promover un enfoque humano y democrático en el manejo de datos.</p>
+                    <p style="font-size: 13pt;"> A través de este mapa buscamos empoderar a la ciudadanía para tomar el control de las herramientas digitales para que cada persona reivindique su derecho a contar su versión. Asimismo, buscamos promover un enfoque humano y democrático en el manejo de datos.</p>
                     
-					<p><a href="https://terremoto19septiembre.ushahidi.io/views/map" class="btn btn-outline btn-md">IR AL MAPA</a></p>
+					<p><a href="https://terremoto19septiembre.ushahidi.io/views/map" target=”_blank” class="btn btn-outline btn-md">IR AL MAPA</a></p>
 				</div>
 			</div>
-		</div>	
-	
+		</div>
 		<!-- END fhtco-main -->
         
-        	
-		<div id="contacto">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						
-						<h3>¿Tienes alguna sugerencia?</h3>
-						<p>Si necesitas ayuda o tienes algo que decir, nos gustaría escucharte.</p>
-						<p>
-							<a href="mailto:mapearterremoto@gmail.com"> mapearterremoto@gmail.com</a>
-						</p>
-					</div>
-
-
-				</div>
-			</div>
-
+        <div id="fh5co-main">
+			<div id="fh5co-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>¿Tienes alguna sugerencia?</h3>
+                            <p>Si necesitas ayuda o tienes algo que decir, nos gustaría escucharte.</p>
+                            <p>
+                                <a href="mailto:mapearterremoto@gmail.com" target=”_blank”>mapearterremoto@gmail.com </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
-			<!-- fh5co-contact -->
-
-		
-		
+			
 			
 		<!-- jQuery -->
 		<script src="js/jquery-1.10.2.min.js"></script>
